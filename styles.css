@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/abstract-halftone-background_23-2148582484.jpg?w=740);
+  background-size: cover;
+  background-position: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 50px 0;
+}
+
+.heading h2 {
+  font-size: 32px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 30px 40px 35px 40px;
+  margin: 0 10px 0 10px;
+  transition: 0.6s;
+}
+
+.card .profile {
+  width: 100px;
+  border-radius: 50%;
+  padding: 6px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  transition: 0.6s;
+}
+
+.card:hover .profile {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0 5px 0;
+}
+
+.card .link img {
+  width: 25px;
+  margin: 30px 5px 20px 5px;
+}
+
+.card .link {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .link .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #141414;
+  border-radius: 50%;
+  margin: 0px 5px;
+  transition: all 0.5s;
+}
+
+.card .link a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 5px;
+}
+
+.card .link a .fa {
+  padding: 15px;
+  font-size: 18px;
+}
+
+.card .link .icon:hover {
+  background-color: #d22b44;
+}
